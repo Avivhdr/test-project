@@ -1,0 +1,24 @@
+body {
+  background: lightseagreen;
+}
+
+.myDiv{
+  border: black 1px solid;
+}
+
+.myInnerP {
+  color: blue;
+}
+
+.imgClass{
+  display: inline-block;
+  border: 1px solid yellow;
+  background-image: url('../img/ufc-logo.jpg');
+  /* background-image: url('https://seeklogo.com/images/H/horse-logo-0B91CD4E5E-seeklogo.com.png'); */
+  height: 150px;
+  width: 150px;
+}
+
+.lorem {
+  font-size: responsive;
+}

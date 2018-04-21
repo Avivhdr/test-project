@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Styling with webpack</title>
+      <!-- When using extract-text-webpack-plugin we will load the styles manually -->
+      <!-- <link rel="stylesheet" type="text/css" href="/styles.css">  -->
+  </head>
+  <body>
+    <h1>Styling with webpack</h1>
+    <div class="myDiv">
+      <p class='myInnerP'>This is a div with "myClass" class </p>
+      <br />
+      <p class='classFromGlobal'>This is a p with a "classFromGlobal" class</p>
+      <br/>
+      <span>There is a span with a "imgClass" class ---></span>  <span class='imgClass'></span>
+      <br />
+      <hr/>
+      <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ut minus earum asperiores ex vel eos obcaecati architecto suscipit corporis dignissimos quam omnis,
+         et consequatur enim aliquam facilis aperiam, nobis nisi.
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+         et consequatur enim aliquam facilis aperiam, nobis nisi.
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+         Asperiores vel impedit laborum blanditiis possimus dolorem recusandae ducimus tempora nobis saepe nisi doloremque provident,
+         Asperiores vel impedit laborum blanditiis possimus dolorem recusandae ducimus tempora nobis saepe nisi doloremque provident,
+         aliquam esse beatae repudiandae earum tenetur molestias.</p>
+      <hr>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Ut minus earum asperiores ex vel eos obcaecati architecto suscipit corporis dignissimos quam omnis,
+          et consequatur enim aliquam facilis aperiam, nobis nisi.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          et consequatur enim aliquam facilis aperiam, nobis nisi.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Asperiores vel impedit laborum blanditiis possimus dolorem recusandae ducimus tempora nobis saepe nisi doloremque provident,
+          Asperiores vel impedit laborum blanditiis possimus dolorem recusandae ducimus tempora nobis saepe nisi doloremque provident,
+          aliquam esse beatae repudiandae earum tenetur molestias.</p>
+          <button onclick="alert('ok')">Click</button>
+    <!-- <script src="./bundle.js"></script> --> <!-- not necessary when using htmlWebPlugin-->
+  </body>
+</html>
