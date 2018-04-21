@@ -1,6 +1,8 @@
-var devConfig = require('./webpack.config');
-var WebpackStrip = require('strip-loader');
-var  stripLoader = {
+const devConfig = require('./webpack.config');
+const WebpackStrip = require('strip-loader'); // eslint-disable-line import/no-extraneous-dependencies
+
+
+const stripLoader = {
   test: [/\.js$/, /\.es6$/],
   loader: WebpackStrip.loader('console.log', 'debugger')
 };
